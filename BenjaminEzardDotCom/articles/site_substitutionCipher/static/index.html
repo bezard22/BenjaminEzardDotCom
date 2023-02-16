@@ -1,0 +1,18 @@
+<section>
+    <div>
+        <label for="alpha">Alphabet: </label>
+        <input type="text" id="alpha" name="alpha" onchange="subCiph.alphaUpdate()">
+        <label for="actionSelect"> Action: </label>
+        <select id="actionSelect" name="actionSelect" onchange="subCiph.actionUpdate()">
+            <option value="encrypt">encrypt</option>
+            <option value="decrypt">decrypt</option>
+        </select>
+        <label for="text" id="textLabel"></label>
+        <input type="text" name="text" id="text">
+        <button id="action" onclick="subCiph.cryption()"></button>
+    </div>
+    <div id="key">
+        <p>Substitution key:</p>
+    </div>
+    <div id="output"></div>
+</section>

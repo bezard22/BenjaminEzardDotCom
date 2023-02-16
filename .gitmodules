@@ -1,0 +1,21 @@
+[submodule "BenjaminEzardDotCom/articles/site_baseConversion"]
+	path = BenjaminEzardDotCom/articles/site_baseConversion
+	url = https://github.com/bezard22/site_baseConversion.git
+[submodule "BenjaminEzardDotCom/articles/site_sort"]
+	path = BenjaminEzardDotCom/articles/site_sort
+	url = https://github.com/bezard22/site_sort.git
+[submodule "BenjaminEzardDotCom/articles/site_fibonacci"]
+	path = BenjaminEzardDotCom/articles/site_fibonacci
+	url = https://github.com/bezard22/site_fibonacci.git
+[submodule "BenjaminEzardDotCom/articles/site_isItPrime"]
+	path = BenjaminEzardDotCom/articles/site_isItPrime
+	url = https://github.com/bezard22/site_isItPrime.git
+[submodule "BenjaminEzardDotCom/articles/site_shiftCipher"]
+	path = BenjaminEzardDotCom/articles/site_shiftCipher
+	url = https://github.com/bezard22/site_shiftCipher.git
+[submodule "BenjaminEzardDotCom/articles/site_affineCipher"]
+	path = BenjaminEzardDotCom/articles/site_affineCipher
+	url = https://github.com/bezard22/site_affineCipher.git
+[submodule "BenjaminEzardDotCom/articles/site_substitutionCipher"]
+	path = BenjaminEzardDotCom/articles/site_substitutionCipher
+	url = https://github.com/bezard22/site_substitutionCipher.git

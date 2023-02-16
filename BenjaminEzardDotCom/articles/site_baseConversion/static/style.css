@@ -1,0 +1,29 @@
+/* articles/conversion/style.css */
+
+.Binary {
+    color: var(--red);
+}
+
+.Decimal {
+    color: var(--blue);
+}
+
+.Hexadecimal {
+    color: var(--green);
+}
+
+.expLine {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    /* width: 1000px; */
+    justify-content: space-between;
+}
+
+div.baseSelector * {
+    display: inline;
+}
+
+span {
+    display: inline-block;
+}

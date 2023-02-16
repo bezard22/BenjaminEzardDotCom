@@ -10,6 +10,7 @@ def index(request):
 def article(request, article):
     baseDir = join(f"site_{article}","static")
     articleObj = Article.objects.filter(name=article)[0]
+    print(articleObj)
     return render(request, 'portfolio/article.html', {
         "article": article,
         "articleObj": articleObj,
