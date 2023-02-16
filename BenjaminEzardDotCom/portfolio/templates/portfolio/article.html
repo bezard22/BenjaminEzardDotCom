@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ article }}</title>
+    <!-- {% load static %} -->
+    <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
+    <link rel="stylesheet" href="{% static stylesheet %}">
+</head>
+<body>
+    <script src="{% static scriptFile %}" type="module"></script>
+    {% include "portfolio/header.html" %}
+    <article>
+        <div class="articleHeader">
+            <div class="articleTitle"><h1>{{ articleObj.title }}</h1></div>
+            <div class="articleGithub"><a href="{{ articleObj.githubLink }}">Github</a></div>
+        </div>
+        <hr>
+        {% include articleFile %}
+    </article>
+    {% include "portfolio/footer.html" %}
+</body>
+</html>

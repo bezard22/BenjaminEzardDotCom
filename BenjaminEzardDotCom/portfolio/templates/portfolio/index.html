@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenjaminEzard.com</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
+</head>
+<body >
+    {% include "portfolio/header.html" %}
+    <article>
+        <h1>Welcome!</h1>
+        <p>My name is Ben Ezard, I'm a software developer and engineer. I use this site as a personal portfolio for my projects. Feel free to look around.</p>
+        <hr>
+        {% for article in articles %}
+            <div class="articleListing">
+                <div class="articleListingLeft">
+                    <a href="article/{{article.name}}" class="title">{{article.title}}</a>
+                    <p>{{article.description}}</p>
+                </div>
+                <div class="articleListingRight">
+                    <a href="{{article.githubLink}}">Github</a>
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+    </article>
+    {% include "portfolio/footer.html" %}
+</body>
+</html>
