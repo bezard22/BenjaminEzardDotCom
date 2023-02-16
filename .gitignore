@@ -1,2 +1,4 @@
 *.sqlite3
 BenjaminEzardDotCom/BenjaminEzardDotCom/settings.py
+BenjaminEzardDotCom/BenjaminEzardDotCom/__pycache__/
+BenjaminEzardDotCom/portfolio/__pycache__/
